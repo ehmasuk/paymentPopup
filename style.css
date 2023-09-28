@@ -33,7 +33,7 @@ p{
   background-color: #fff;
   padding: 6px;
   border-radius: 15px;
-  border-bottom: 20px solid transparent;
+  border-bottom: 50px solid transparent;
 }
 .select-preference-wraper .select-popup .select-popup-inner .select-left{
   flex-basis: 50%;
