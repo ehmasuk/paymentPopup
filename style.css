@@ -160,7 +160,7 @@ p{
 }
 .select-popup .infos .fa-check-circle{
   color: #4C4C4C;
-  margin-right: 15px;
+  margin-right: 10px;
 }
 .select-popup .infos{
   display: flex;
@@ -233,7 +233,9 @@ p{
 .select-popup .left-side-details .details-wrap .svg-last::before{
   display: none;
 }
-
+.select-popup .infos-small{
+  display: none;
+}
 
 
 @media only screen and (max-width:800px){
@@ -243,6 +245,47 @@ p{
   .select-preference-wraper .select-popup .select-popup-inner .select-right{
     flex-basis: 100%;
   }
+  .fix-height-issue{
+    padding-bottom: 30px;
+  }
+  .select-preference-wraper .select-popup .select-popup-inner .select-right{
+    padding: 15px;
+  }
+  .select-popup>.fa-times {
+    right: 5px;
+    top: 5px;
+    height: 20px;
+    width: 20px;
+    line-height: 20px;
+  }
+  .single-plan .plan-title,
+  .select-preference-wraper .select-popup .select-title{
+    font-size: 17px;
+  }
+  .single-plan .plan-des,
+  .select-preference-wraper .select-popup .select-des{
+    font-size: 14px;
+  }
+  .select-popup .infos{
+    margin-bottom: 10px;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .select-popup .infos-small{
+    display: flex;
+  }
+  .select-popup .payment-box{
+    margin-top: 25px;
+  }
+  .select-popup .infos .fa-check-circle {
+    margin-right: 5px;
+    color: #c208c1;
+  }
+  .
+
+
+
+
 }
 
 
