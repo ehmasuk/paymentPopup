@@ -246,7 +246,8 @@ p{
     flex-basis: 100%;
   }
   .fix-height-issue{
-    padding-bottom: 100px;
+    padding-bottom: 50px;
+    background-color: transparent;
   }
   .select-preference-wraper .select-popup .select-popup-inner .select-right{
     padding: 15px;
@@ -281,7 +282,6 @@ p{
     margin-right: 5px;
     color: #c208c1;
   }
-  .
 
 
 
