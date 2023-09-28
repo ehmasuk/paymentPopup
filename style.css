@@ -247,7 +247,7 @@ p{
   }
   .fix-height-issue{
     padding-bottom: 50px;
-    background-color: red;
+    background-color: #00000000;
   }
   .select-preference-wraper .select-popup .select-popup-inner .select-right{
     padding: 15px;
